@@ -5,6 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         //1
+        System.out.println("Problema 1");
         Person persoana = new Person("Marcel", "Strada Iuliu Maniu 4", 21);
 
         String x=persoana.getName();
@@ -17,7 +18,7 @@ public class Main {
 
 
         //2
-        System.out.println("\n\n");
+        System.out.println("Problema 2");
         Circle cerc = new Circle(8);
         double arie1=cerc.calculateArea();
 
@@ -29,7 +30,7 @@ public class Main {
 
 
         //3
-        System.out.println("\n\n");
+        System.out.println("Problema 3");
         Triangle triunghi = new Triangle();
         Square patrat = new Square();
 
@@ -45,7 +46,7 @@ public class Main {
 
 
         //4
-        System.out.println("\n\n");
+        System.out.println("Problema 4");
         BankAccount bankAccount = new BankAccount();
         bankAccount.deposit(5000);
         bankAccount.withdraw(2000);
@@ -53,7 +54,7 @@ public class Main {
         System.out.println("\nSoldul contului este " + balance);
 
         //5
-        System.out.println("\n\n");
+        System.out.println("Problema 5");
         Car masina = new Car();
         Motorcycle motocicleta = new Motorcycle();
         masina.start();
